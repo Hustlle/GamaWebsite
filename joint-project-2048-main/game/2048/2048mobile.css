@@ -1,0 +1,81 @@
+@media (max-width: 800px) {
+    * {
+        font-family: 'Red Hat Mono', monospace;
+        font-size: 20px;
+    }
+
+    .tile {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    hr {
+        width: 300px;
+    }
+
+    #board {
+        width: 220px;
+        height: 220px;
+    
+        border: 6px solid #bbada0;
+        background-color: #cdc1b5;
+        
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .backbutton {
+        position: absolute;
+        top: 7%;
+        left: 3%;
+        width: 150px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 15px;
+        background: white;
+    }
+
+    .x128{
+        background-color: #edce71;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .x256{
+        background-color: #edcc63;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .x512{
+        background-color: #edc651;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .x1024{
+        background-color: #eec744;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .x2048{
+        background-color: #ecc230;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .x4096 {
+        background-color: #fe3d3d;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .x8192 {
+        background-color: #ff2020;
+        color: white;
+        font-size: 18px;
+    }
+}

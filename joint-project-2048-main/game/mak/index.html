@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mobile.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="mainwindow" id="mainwindow">
+            <div class="tablecontainer" id="tcon">
+                <div class="tableborder" id="tableborder">
+                    <script src="./generatetable.js"></script>
+                </div>
+            </div>
+            <div class="menucont" id="menu">
+                <div class="timerandcount">
+                    <div class="timerbox">
+                        <p class="timer" id="timer">00:00:00</p>
+                    </div>
+                    <div class="count">
+                        <p class="timer">0</p>
+                    </div>
+                </div>
+                <div class="mainmenu">
+                    <div class="frcolumn">
+                        <div class="topplayer" id="top"></div>
+                        <div class="colorswitch" id="switchbuttons"></div>
+                    </div>
+                    <div class="filcolomn">
+                        <p class="text">difficulty</p>
+                        <div class="flexcolumn">
+                            <button class="buttonsdif" id="difficultybutton1">1</button>
+                            <button class="buttonsdif" id="difficultybutton2">2</button>
+                            <button class="buttonsdif" id="difficultybutton3">3</button>
+                            <button class="buttonsdif" id="difficultybutton4">4</button>
+                        </div>
+                    </div>
+                    <div class="firstcolumn">
+                        <button class="buttonsdif" id="sizebutton5">5x5</button>
+                        <button class="buttonsdif" id="sizebutton10">10x10</button>
+                        <button class="buttonsdif" id="sizebutton15">15x15</button>
+                        <button class="buttonsdif" id="sizebutton20">20x20</button>
+                        <button class="buttonsdif" id="sizebutton30">30x30</button>
+                        <button class="buttonsdif" id="sizebutton40">40x40</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="back.css">
+        <link rel="stylesheet" href="mobile.css">
+        <!-- импорт для анимации на первой кнопке -->
+        <link rel="stylesheet" href="../game/2048/2048.css">
+        <!-- импорт для анимации на первой кнопке -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>menu</title>
+    </head>
+    <body>
+        <div class="bganimated" id="animform">
+            <script src="../src/backanimated.js"></script>
+        </div>
+        <div class="mainwindow">
+            <header class="head">
+                <p>INA corp</p>
+                <nav class="headerdiv">
+                    <a href="https://vk.com/poopaaaaaaa" class="ateg">popa</a>
+                    <a href="https://vk.com/kidnappeddirt" class="ateg">artim</a>
+                </nav>
+            </header>
+            <div class="textwindow">
+                <h1 class="ges">game - eat - sleep</h1>
+            </div>
+            <div class="gamebox">
+                <div class="line">
+                    <div class="block" id="gamewindow1" onclick="window.location.href = '../game/2048/2048.html'">2</div>
+                    <div class="block" id="gamewindow2" onclick="window.location.href = '../game/TicTacToe/index.html'"></div>
+                    <div class="block" id="gamewindow3" onclick="window.location.href = '../game/snake/index.html'">
+                    <canvas id="snake" class="canvas" width="400" height="400">
+
+                    </canvas>
+                    </div>
+                    <div class="block" id="gamewindow4" onclick="window.location.href = '../game/mak/index.html'">
+                    <div class="bombmen"></div>
+                    </div>
+                    <div class="block" id="gamewindow5" onclick="window.location.href = '#'">+</div>
+                    <div id="modal-result-wrapper">
+                        <div id="overlay"></div>
+                        <div id="modal-window">
+                            <div id="content">Content</div>
+                            <div id="btn-close">Start new game</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p class="footertext">тут оставим наши ссылки и напишим что-то умное</p>
+        </footer>
+        <script src="../src/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+@media (max-width: 1450px) {
+    body {
+        background-color: chartreuse;
+    }
+
+    .mainwindow {
+        flex-direction: column;
+        padding-top: 2%;
+    }
+
+    .tablecontainer {
+        margin: 5px;
+        width: 600px;
+        height: 600px;
+    }
+
+    .tableborder {
+        margin: 0 auto;
+    }
+
+    .block {
+        padding: 5px;
+    }
+
+    .table {
+        width: 600px;
+        height: 600px;
+    }
+
+    .menucont {
+        margin: 5px;
+        width: 610px;
+        height: 610px;
+        justify-content: space-around;
+    }
+
+    .timerandcount {
+        border-radius: 10px;
+        padding: 1px;
+    }
+
+    .timerbox {
+        height: 90px;
+    }
+
+    .count {
+        height: 90px;
+    }
+
+    .frcolumn {
+        width: 160px;
+    }
+
+    .filcolomn {
+        width: 160px;
+    }
+
+    .firstcolumn {
+        width: 160px;
+    }
+
+    .buttonsdif {
+        padding: 15px;
+    }
+}

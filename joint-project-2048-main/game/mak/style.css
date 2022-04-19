@@ -1,0 +1,191 @@
+body {
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.mainwindow {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #284A7E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tablecontainer {
+    width: 710px;
+    height: 710px;
+    border: 5px solid #10c4d1;
+    border-radius: 10px;
+}
+
+.tableborder {
+    margin: .5%;
+    width: 100%;
+    height: 100%;
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.block {
+    margin: 1px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #10c4d1;
+    border-radius: 3px;
+    background: #9d77f5;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.tablebody {
+    width: 100%;
+    height: 100%;
+}
+
+.texttable {
+    padding: 1px;
+    text-align: center;
+    margin: 0;
+}
+
+.table {
+    width: 700px;
+    height: 700px;
+}
+
+.menucont {
+    width: 710px;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.timerandcount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 5px solid #10c4d1;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.timerbox {
+    width: 70%;
+    height: 120px;
+    background-color: black;
+    border: 5px solid orange;
+    border-radius: 4px;
+    margin: 10px;
+    color: azure;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.timer {
+    text-align: center;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 50px;
+}
+
+.count {
+    width: 30%;
+    height: 120px;
+    border: 5px solid orange;
+    background-color: black;
+    border-radius: 4px;
+    margin: 10px;
+    color: azure;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.mainmenu {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.firstcolumn {
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 5px solid #10c4d1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.filcolomn {
+    border: 5px solid #10c4d1;
+    border-radius: 10px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frcolumn {
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flexcolumn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.topplayer {
+    height: 65%;
+    background-color: #9d77f5;
+    border: 5px solid #10c4d1;
+    border-radius: 10px;
+}
+
+.colorswitch {
+    height: 25%;
+    border: 1px solid aqua;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 25px;
+    border-bottom: 5px solid #10c4d1;
+    border-radius: 5px 5px 0 0;
+    margin: 0 auto;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.buttonsdif {
+    background-color: #9d77f5;
+    padding: 20px;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    border: 3px solid #10c4d1;
+    border-radius: 10px;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 15px;
+}
